@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+    h1,
+    .main-title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: thistle;
+    }
+  
+    h4,
+    .main-title {
+        font-size: medium;
+        font-weight: normal;
+        color: grey;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h5,
+    .main-title {
+        font-style: normal;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        font-weight:lighter ;
+        color: grey;
+    }
+    
+
+    
