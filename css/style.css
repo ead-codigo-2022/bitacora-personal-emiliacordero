@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
+    background-color: white;
 
 }
     h1,
@@ -12,7 +12,7 @@ body {
         font-family: Arial, Helvetica, sans-serif;
     }
   
-    h4,
+    p,
     .main-title {
         text-align: center;
         font-size: medium;
@@ -21,12 +21,7 @@ body {
         font-family: 'Courier New', Courier, monospace;
     }
 
-
-    :root {
-    
-        --color-text:       black;
-        --color-background: whitesmoke;
-      }
+ 
       * {
         margin: auto;
         padding: auto;
@@ -37,12 +32,14 @@ body {
         font-size: 1rem;
         line-height: 1.45;
         color: var(--color-text);
+
       }
       
       .container {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+        color: black;
       }
       .services {
         padding: 3rem 0;
@@ -58,7 +55,7 @@ body {
     
       .services__body {
         display: grid;
-        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-columns: repeat(4, 1fr);
         column-gap:50px;
         row-gap: 50px;
         margin-bottom: 50px;
@@ -88,6 +85,7 @@ body {
       .service__link {
         color: var(--color-text);
         font-size: small;
+        font-family: 'Courier New', Courier, monospace;
       }
       .services__footer {
         text-align: center;
@@ -101,3 +99,10 @@ body {
         background-color: var(--color-primary);
         border-radius: 32px;
       }
+
+      .container {
+        display: flex;
+
+      }
+
+      
