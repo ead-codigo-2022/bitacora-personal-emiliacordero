@@ -239,7 +239,7 @@
 
 .one{
 
-    background: #755B81;
+    background-color: #755b819c;
     height: 17rem;
     width: 85rem;
     text-align: center;
@@ -251,7 +251,7 @@
 
 .two{
 
-    background: #755B81;
+    background-color: #755b819c;
     image-resolution: 30px;
     height: 16rem;
     width: 85rem;
@@ -263,7 +263,7 @@
 
 .three {
 
-    background: #755B81;
+    background-color: #755b819c;
     height: 16rem;
     width: 85rem;
     text-align: center;
@@ -512,19 +512,35 @@
         background-color: var(--color-background);
         border-radius: 5px;
       }
+      .services__bodyone {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-bottom: 4rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+
+        
+      }  
       .services__body {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 20px;
         row-gap: 40px;
         margin-bottom: 4rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+
         
       }    
 
       .service__title {
         margin-bottom: 1rem;
         line-height: 1;
-        color: #fff;
+        color: #755B81;
         font-weight: lighter;
         font-size: 40px;
         
@@ -534,34 +550,20 @@
       }
       .service__link {
         color: var(--color-text);
-        color: #fff;
+        color: #755B81;
+        font-size: medium;
+        font-weight: lighter;
 
       }
       .services__footer {
         text-align: center;
       }
    
-
-      .uno {
-        padding: 2.5rem 1.25rem 2rem 1.25rem;
-        text-align: center;
-        justify-content: center;
-        border-radius: 10px;
-        background-color: #755B81;
-      }
-  
-      .doss {
-        padding: 2.5rem 1.25rem 2rem 1.25rem;
-        text-align: center;
-        border-radius: 10px;
-        background-color: #755B81;
-      }
-  
       .tres {
         padding: 2.5rem 1.25rem 2rem 1.25rem;
         text-align: center;
         border-radius: 10px;
-        background-color: #755B81;
+        background-color: #fff;
         
       }
   
@@ -569,15 +571,91 @@
         padding: 2.5rem 1.25rem 2rem 1.25rem;
         text-align: center;
         border-radius: 10px;
-        background-color: #755B81;
+        background-color: #fff;
       }
  
       .index2 {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        background-color: #C7BFCF;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+        background-color: #C7BFCF;
+      }
+
+      .tituloleft{
+        text-align: left;
+        font-weight: normal;
+        font-size: 40px;
+        color: #fff;
+        margin-left: 5%;
       }
  
+      .proyectos{
+
+        margin-left: 5%;
+        margin-right: 5%;
+
+      }
+
+      .proyectos-galeria{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+
+      }
+
+      .fotouno{
+        display: inline-block;
+        width: 20%;
+        size: 20%;
+        height: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 3%;
+      }
+      .fotounouno{
+        display: inline-block;
+        width: 25%;
+        size: 26%;
+        height: 17%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 3%;
+      }
+
+      .fotodos{
+        display: inline-block;
+        width: 20%;
+        size: 20%;
+        height: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 3%;
+      }
+
+      .fototres{
+        display: inline-block;
+        width: 20%;
+        size: 20%;
+        height: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 3%;
+      }
+
+      .fotocuatro{
+        display: inline-block;
+        width: 20%;
+        size: 20%;
+        height: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 3%;
+      }
+
+      .video{
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #C7BFCF;
+      }
