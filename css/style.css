@@ -16,6 +16,7 @@
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+
     
          
     }
@@ -24,6 +25,7 @@
         text-align: center;
         padding: 20px 0;
         font-size: 40px;
+        color: #fff;
 
     }
 
@@ -119,7 +121,7 @@
         color: #fff;
         padding: 0 100px;
     }
-.pw {
+    .pw {
     margin-bottom: 40px;
         font-size: 18px;
         color: thistle;
@@ -127,7 +129,7 @@
 
 }
 
-.pww {
+    .pww {
     margin-bottom: 40px;
         font-size: 18px;
         color: #fff;
@@ -231,9 +233,13 @@
 
     }
 
+    .footer{
+        color: #755B81;
+    }
+
 .one{
 
-    background: #6C6B6D;
+    background: #755B81;
     height: 17rem;
     width: 85rem;
     text-align: center;
@@ -242,9 +248,10 @@
     
 }
 
+
 .two{
 
-    background: #6C6B6D;
+    background: #755B81;
     image-resolution: 30px;
     height: 16rem;
     width: 85rem;
@@ -256,7 +263,7 @@
 
 .three {
 
-    background: #6C6B6D;
+    background: #755B81;
     height: 16rem;
     width: 85rem;
     text-align: center;
@@ -303,7 +310,7 @@
     }
 
     .linea{
-        background: thistle;
+        background:#755B81;
         height: 5px;
         width: 100%;
         display: block;
@@ -416,9 +423,161 @@
 
     }
 
-
-   
-
-   
-
+    .principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     
+    }
+    
+    .principal {
+        height: 60vh !important;
+        background: url(img) no-repeat center;
+        background-size:cover;
+        color: #fff;
+    }
+
+    .principal img{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+
+    }
+    
+    .titulo {
+        margin-bottom: 40px;
+        font-size: 60px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff
+        
+    }
+
+      :root {
+        --color-primary:    #f01f4b;
+        --color-text:       #17161A;
+        --color-background: #755B81;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        font-size: 1rem;
+        line-height: 1.45;
+        color: var(--color-text);
+      }
+      a {
+        color: var(--color-primary);
+      }
+      .container {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+      }
+      .services {
+        padding: 3rem 0;
+      }
+      .services__header {
+        margin-bottom: 4rem;
+        text-align: center;
+      }
+      .services__title {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5rem;
+        line-height: 1;
+       
+      }
+      .services__epigraph {
+        display: inline-block;
+        margin-bottom: 1rem;
+        padding: .65rem 1rem .35rem;
+        font-size: .85rem;
+        line-height: 1;
+        text-transform: uppercase;
+        background-color: var(--color-background);
+        border-radius: 5px;
+      }
+      .services__body {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-bottom: 4rem;
+        
+      }    
+
+      .service__title {
+        margin-bottom: 1rem;
+        line-height: 1;
+        color: #fff;
+        font-weight: lighter;
+        font-size: 40px;
+        
+      }
+      .service__description {
+        margin-bottom: 1.75rem;
+      }
+      .service__link {
+        color: var(--color-text);
+        color: #fff;
+
+      }
+      .services__footer {
+        text-align: center;
+      }
+   
+
+      .uno {
+        padding: 2.5rem 1.25rem 2rem 1.25rem;
+        text-align: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #755B81;
+      }
+  
+      .doss {
+        padding: 2.5rem 1.25rem 2rem 1.25rem;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #755B81;
+      }
+  
+      .tres {
+        padding: 2.5rem 1.25rem 2rem 1.25rem;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #755B81;
+        
+      }
+  
+      .cuatro {
+        padding: 2.5rem 1.25rem 2rem 1.25rem;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #755B81;
+      }
+ 
+      .index2 {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #C7BFCF;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+ 
